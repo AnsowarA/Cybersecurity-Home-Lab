@@ -1,4 +1,5 @@
 # Cybersecurity & Infrastructure Home Lab
+**Proxmox • Windows • Linux • Synology • Raspberry Pi • Networking • Pi-hole • Nginx • Uptime Kuma • T-Pot**
 
 ## Overview
 
