@@ -1,6 +1,8 @@
 # Cybersecurity & Infrastructure Home Lab
 **Proxmox • Windows • Linux • Synology • Raspberry Pi • Networking • Pi-hole • Nginx • Uptime Kuma • T-Pot**
 
+---
+
 ## Overview
 
 This project documents the design, deployment, and administration of my personal cybersecurity home lab.
@@ -23,6 +25,25 @@ The lab combines physical and virtual infrastructure including:
 - UPS battery backup
 
 This repository documents the infrastructure, configuration, and services that make up the environment.
+
+---
+
+### Lab Components
+
+| Component | Platform | Purpose |
+|---|---|---|
+| Hypervisor | Proxmox VE | Hosts Windows, Linux, and security VMs |
+| Windows VM | Windows 11 | Endpoint testing and security monitoring |
+| Linux VM | Ubuntu | Linux administration and security services |
+| Honeypot | T-Pot | Security telemetry and honeypot monitoring |
+| Storage | Synology NAS | Centralized storage and NFS |
+| DNS Filtering | Pi-hole | Network-level DNS filtering |
+| Reverse Proxy | Nginx | Internal web service routing |
+| Monitoring | Uptime Kuma | Service availability and response monitoring |
+| Security Monitoring | Wazuh | SIEM and endpoint monitoring |
+| Compute | Raspberry Pi | Lightweight infrastructure services |
+| Network | Routers + Switch | Wired connectivity between lab systems |
+| Power | UPS | Battery backup for critical infrastructure |
 
 ---
 
