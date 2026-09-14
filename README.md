@@ -1,4 +1,4 @@
-# Proxmox Cybersecurity Home Lab
+# Cybersecurity & Infrastructure Home Lab
 
 ## Overview
 
